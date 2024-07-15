@@ -1,0 +1,24 @@
+.app__specialMenu{
+    flex-direction: column;
+    background-color: var(--color-black);
+}
+.app__specialMenu-title{
+    margin: 2rem;
+    text-align: center;
+}
+.app__specialMenu-menu{
+    margin: 2rem 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.app__specialMenu-menu_heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+}
+.app__specialMenu-menu_wine,.app__specialMenu-menu_cocktails{
+     flex-direction: column;
+}

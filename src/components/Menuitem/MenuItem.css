@@ -1,0 +1,15 @@
+.app__menuitem{
+     margin: 2rem 0;
+}
+.app__menuitem-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app__menuitem-dash{
+    height: 1px;
+    width: 100%;
+    margin: 0 3rem;
+    background-color: white;
+}
